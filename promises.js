@@ -10,6 +10,6 @@ const fetchData = new Promise((resolve, reject) => {
   });
   
   fetchData
-    .then(response => alert(response))
+    .then(response => console.log(response))
     .catch(error => console.error(error));
   
